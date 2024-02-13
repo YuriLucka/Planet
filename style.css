@@ -1,0 +1,94 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+  user-select: none;
+  border: none;
+}
+
+html, body, #main{
+  height: 100%;
+  width: 100%;
+}
+
+#fieldInfo{
+  height: 80%;
+  background:linear-gradient(rgb(228, 228, 228), rgb(187, 187, 187));
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+#namePlanet{
+  background-color: white;
+  padding: 10px;
+  font-size: 1.6em;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: -5px 4px #717171, -6px 5px #4b4b4b;
+  padding: 10px;
+  border: solid 2px ;
+}
+#planet{
+  width: 150px;
+  height: 150px;
+  border: solid 2px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: -5px 4px #717171, -6px 5px #4b4b4b;
+  padding: 10px;
+}
+
+#planetImg{
+  height: 100%;
+}
+
+#description{
+  width: 100%;
+  max-width: 700px;
+  resize: none;
+  height: 40%;
+  outline: none;
+  border: solid 2px;
+  border-radius: 5px;
+  background-color: #d6ecf2;
+  box-shadow: -5px 4px #717171, -6px 5px #4b4b4b;
+  padding: 10px;
+}
+
+.buttons_field{
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  background:linear-gradient(#374c79, #5271b4);
+}
+
+.button{
+  width: 40%;
+  max-width: 200px;
+  height: 50%;
+  border-radius: 5px;
+  border: solid 1px rgb(43, 43, 43);
+  background-color: rgb(91, 91, 91);
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: -5px 4px #323a50;
+}
+
+.button:active{
+  box-shadow: inset -5px 4px #413250;
+  font-size: 1.1rem;
+  background-color: rgb(87, 87, 87);
+  color: greenyellow;
+}
